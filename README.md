@@ -15,5 +15,5 @@ Formula perguntas no terminal e recebe as respostas, retornando ao finalizar o p
 
 <p align="center">Saida:</p>
 <div align="center"> 
-    <img width="40%" src="./public/preview.png" alt="">
+    <img width="70%" src="./public/preview.png" alt="">
 </div>
