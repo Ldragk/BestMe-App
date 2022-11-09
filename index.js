@@ -1,7 +1,7 @@
 const questions = [
     "O que aprendi hoje? ",
-    "O que me deixou aborrecido?",
-    "O que eu poderia fazer para melhorar?",
+    "O que me deixou aborrecido? ",
+    "O que eu poderia fazer para melhorar? ",
     "O que me deixou feliz hoje? ",
     "Quantas pessoas ajudei hoje? ",
 ]
@@ -12,7 +12,7 @@ const ask = (index = 0) => {
 }
 
 
-ask() // Posso passar o valor do index aqui como parâmetro.
+ask() //Posso passar o valor do index aqui como parâmetro.
 
 
 const answers = []
@@ -25,15 +25,15 @@ process.stdin.on("data", data => {
         : process.exit()
 })
 
-process.on("exit", () => {
-    console.log(`    
-    Finalizado!
+// process.on("exit", () => {
+//     console.log(`    
+//     Finalizado!
 
-    O que você aprendeu hoje foi: ${answers[0]}
-    O te aborreceu hoje foi: ${answers[1]}
-    O que poderia melhorar foi : ${answers[2]}
-    O que te deixou feliz hoje! ${answers[3]}
-    Você ajudou ${answers[4]} pessoas hoje!       
-    `);
-})
+//     O que você aprendeu hoje foi: ${answers[0]}
+//     O te aborreceu hoje foi: ${answers[1]}
+//     O que poderia melhorar foi : ${answers[2]}
+//     O que te deixou feliz hoje! ${answers[3]}
+//     Você ajudou ${answers[4]} pessoas hoje!       
+//     `);
+// })
 

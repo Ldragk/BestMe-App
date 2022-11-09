@@ -13,7 +13,7 @@ Formula perguntas no terminal e recebe as respostas, retornando ao finalizar o p
 <br>
 
 
-<p align="center">Saida:</p>
+<p align="center">Saída:</p>
 <div align="center"> 
     <img width="70%" src="./public/preview.png" alt="">
 </div>
